@@ -60,6 +60,4 @@ def convert(input):
     output = re.sub(u'\u1097',u'\u100B\u1039\u100B',output)
     output = re.sub(u'((?:\u1031)?)((?:\u103c)?)([\u1000-\u1021])((?:\u103b)?)((?:\u103d)?)((?:\u103e)?)((?:\u1037)?)((?:\u102c)?)', '\\3\\2\\4\\5\\6\\1\\7\\8', output)
 
-
-
-return output
+    return output
