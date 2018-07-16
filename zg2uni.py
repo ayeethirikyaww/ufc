@@ -1,8 +1,8 @@
-# -*- coding: utf-8 -*-
+
 import re
 
 def replace(input):
-    # replace each zawgyi code point with equivalent code point in unicode
+    
     output = input
 
     output = output.replace(u'\u106a', u'\u1009') # nya_lay
